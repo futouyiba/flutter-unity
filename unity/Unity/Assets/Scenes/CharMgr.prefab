@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &799599653680759973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 799599653680760027}
+  - component: {fileID: 799599653680759972}
+  m_Layer: 0
+  m_Name: CharMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &799599653680760027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799599653680759973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0712748, y: 23.295761, z: 21.596586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &799599653680759972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799599653680759973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 354667e6a0529a545b2dc2f0879a4e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charPrefabs:
+  - {fileID: 9155325212016578755, guid: 6b54785679c720c49b6e06f8af1ddd1a, type: 3}
+  - {fileID: 670315309520116954, guid: 08bdac5950dc5954b9874c3ed4a81439, type: 3}
+  - {fileID: 9155325212016578755, guid: 0b5f8484210c2144c9ce6ee01b42ebef, type: 3}
+  - {fileID: 670315309520116954, guid: b9073f9dd2517b54393ddca0f8d2ac70, type: 3}
+  - {fileID: 670315309520116954, guid: 0091b6f53def31b4daf7c1665a36f910, type: 3}
+  - {fileID: 670315309520116954, guid: d6249ec6d403d314ea1c344cf07d45f4, type: 3}
+  - {fileID: 670315309520116954, guid: bcd827bf63a0141458fca8e28735b750, type: 3}
+  - {fileID: 670315309520116954, guid: ee180c85524d72142b657cb700c47e3d, type: 3}
+  - {fileID: 670315309520116954, guid: 0fde216186362c64f82853772ebf8ba2, type: 3}
+  - {fileID: 670315309520116954, guid: e285516601e535645b628966fe4c8a52, type: 3}
+  - {fileID: 670315309520116954, guid: d9fb596e2334a5840b85265a26854da0, type: 3}
+  - {fileID: 670315309520116954, guid: 3a7eb6d5bd73a0a4782001539978c5eb, type: 3}
+  - {fileID: 9029538193465864291, guid: 47fbec9ed1c71224bb93bfe730de34d2, type: 3}
+  myposStored: {x: -1, y: -1}
