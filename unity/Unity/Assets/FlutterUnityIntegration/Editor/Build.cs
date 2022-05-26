@@ -139,7 +139,7 @@ public class Build : EditorWindow
             Directory.Delete(path, true);
 
         
-        EditorUserBuildSettings.iOSBuildConfigType = iOSBuildType.Release;
+        EditorUserBuildSettings.iOSBuildConfigType = iOSBuildType.Debug;
 
         var options = BuildOptions.AllowDebugging;
         var report = BuildPipeline.BuildPlayer(
