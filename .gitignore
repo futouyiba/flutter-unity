@@ -42,3 +42,4 @@ app.*.map.json
 unity/Unity/Logs
 unity/Unity/Packages
 unity/Unity/UserSettings/Layouts
+ios/UnityLibrary/
